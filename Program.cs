@@ -25,7 +25,9 @@ namespace QueriesLinq
                 new Movie {Title = "The King's Speech", Rating = 8.9f, Year = 2019 },
                 new Movie {Title = "Casablanka", Rating = 8.5f, Year = 1996 },
                 new Movie {Title = "Star Wars V", Rating = 8.7f, Year = 1999 },
-                new Movie {Title = "acrimony" , Rating = 8.7f, Year = 2018 }
+                new Movie {Title = "acrimony" , Rating = 8.7f, Year = 2018 },
+                new Movie { Title ="Hell",Rating= 8.9f, Year=2020}
+
             };
 
             //Query using an extensin method to filter movies(replace where with Filter to use filter method)
